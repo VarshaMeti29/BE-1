@@ -39,7 +39,7 @@ app.post('/feedback',(req,res)=>{
 
 })
 app.post('/Sanjana',(req,res)=>{
-    const deepthi= req.body;
+    const Sanjana= req.body;
     console.log(deepthi);
     res.send("Thank-You");
 })
